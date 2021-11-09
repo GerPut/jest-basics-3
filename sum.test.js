@@ -54,3 +54,14 @@ describe("arrays", () => {
     const shoppingLists = ['apples', 'bananas', 'orange', 'strawberry', 'milk']
     expect(shoppingLists).toContain("milk")
 })
+
+
+function compileAndroidCode() {
+    throw new Error("you are using the wrong JDK")
+}
+//Exceptions
+describe("exceptions", () => {
+    it("compiling android as expected", () => {
+        expect(() => compileAndroidCode()).toThrow(Error)
+    })
+})
