@@ -21,5 +21,20 @@ describe("truthy or falsy", () => {
         const n = null;
         expect(n).toBeFalsy()
         expect(n).not.toBeTruthy()
+        // expect(n).toBeNull()
+        // expect(n).not.toBeUndefined()
+    })
+})
+
+// Numbers
+
+describe("numbers", () => {
+    it("two plus two", () => {
+        const value = 2 + 2;
+        expect(value).toBe(4)
+        expect(value).toBeGreaterThan(3)
+        expect(value).toBeLessThan(5)
+        expect(value).toBeGreaterThanOrEqual(4)
+        expect(value).toBeLessThanOrEqual(4)
     })
 })
