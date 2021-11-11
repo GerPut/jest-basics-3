@@ -19,5 +19,8 @@
   "homepage": "https://github.com/GerPut/jest-basics-3#readme",
   "devDependencies": {
     "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
   }
 }
